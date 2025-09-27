@@ -12,6 +12,7 @@ cmds = [
     "mkdir -p /app/storage/framework/cache",
     "mkdir -p /app/storage/framework/sessions", 
     "mkdir -p /app/storage/framework/views",
+    "chmod -R 777 /app/storage/logs",
     "mkdir -p /app/bootstrap/cache",
     "chown -R www-data:www-data /app/storage",
     "chown -R www-data:www-data /app/bootstrap/cache",
